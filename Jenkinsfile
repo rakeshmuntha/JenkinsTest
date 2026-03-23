@@ -1,14 +1,14 @@
-pipeline: {
-    agent: any
-    stages: {
-        stage('first stage') {
+pipeline {
+    agent any
+    stages {
+        stage('First Stage') {
             steps {
                 script {
                     sh 'ls'
                 }
             }
         }
-        stage('first stage') {
+        stage('Second Stage') {
             steps {
                 script {
                     sh 'ls'
