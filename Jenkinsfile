@@ -4,14 +4,14 @@ pipeline: {
         stage('first stage') {
             steps {
                 script {
-                    sh 'npx create vite@latest'
+                    sh 'ls'
                 }
             }
         }
         stage('first stage') {
             steps {
                 script {
-                    sh 'npx create vite@latest'
+                    sh 'ls'
                 }
             }
         }
