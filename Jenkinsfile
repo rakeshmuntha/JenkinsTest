@@ -4,14 +4,14 @@ pipeline {
         stage('First Stage') {
             steps {
                 script {
-                    sh 'ls'
+                    bat 'dir'
                 }
             }
         }
         stage('Second Stage') {
             steps {
                 script {
-                    sh 'ls'
+                    bat 'dir'
                 }
             }
         }
